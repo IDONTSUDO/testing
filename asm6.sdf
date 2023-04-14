@@ -1,0 +1,60 @@
+<model name="assembly">
+	<link name="base_link">
+		<pose>0 0 0 0 0 0</pose>
+	</link>
+	<include>
+		<name>Cube</name>
+		<uri>/Cube</uri>
+		<pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+	</include>
+	<include>
+		<name>Cube001</name>
+		<uri>/Cube001</uri>
+		<pose>0.0 -1.5e-05 0.0 0.0 0.0 0.0</pose>
+	</include>
+	<include>
+		<name>Cube002</name>
+		<uri>/Cube002</uri>
+		<pose>0.0 -9e-06 1e-05 0.0 0.0 0.0</pose>
+	</include>
+	<include>
+		<name>Cube003</name>
+		<uri>/Cube003</uri>
+		<pose>-1.3e-05 0.0 0.0 0.0 0.0 0.0</pose>
+	</include>
+	<include>
+		<name>Cube004</name>
+		<uri>/Cube004</uri>
+		<pose>-1.3e-05 -1.7e-05 0.0 0.0 0.0 0.0</pose>
+	</include>
+	<include>
+		<name>Cube005</name>
+		<uri>/Cube005</uri>
+		<pose>-1.3e-05 -7e-06 1e-05 0.0 0.0 0.0</pose>
+	</include>
+	<joint name="8004ca10-33e2-48a9-9b31-efb519a8e624" type="fixed">
+		<parent>base_link</parent>
+		<child>Cube::Cube</child>
+		<pose>0.0 -1.5e-05 0.0 0.0 0.0 0.0</pose>
+	</joint>
+	<joint name="df83abc0-fc7d-452e-afe8-90a20a38c839" type="fixed">
+		<parent>base_link</parent>
+		<child>Cube::Cube</child>
+		<pose>0.0 -9e-06 1e-05 0.0 0.0 0.0</pose>
+	</joint>
+	<joint name="b9f363ca-13f4-4564-a1b1-8d189b36af3a" type="fixed">
+		<parent>base_link</parent>
+		<child>Cube::Cube</child>
+		<pose>-1.3e-05 0.0 0.0 0.0 0.0 0.0</pose>
+	</joint>
+	<joint name="a2fb835c-bbed-4844-b9b6-1db2eacf262b" type="fixed">
+		<parent>base_link</parent>
+		<child>Cube::Cube</child>
+		<pose>-1.3e-05 -1.7e-05 0.0 0.0 0.0 0.0</pose>
+	</joint>
+	<joint name="3fad202c-00fb-4306-8bd5-d9f059de50ed" type="fixed">
+		<parent>base_link</parent>
+		<child>Cube::Cube</child>
+		<pose>-1.3e-05 -7e-06 1e-05 0.0 0.0 0.0</pose>
+	</joint>
+</model>

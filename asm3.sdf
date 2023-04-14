@@ -1,0 +1,30 @@
+<model name="assembly">
+	<link name="base_link">
+		<pose>0 0 0 0 0 0</pose>
+	</link>
+	<include>
+		<name>Cube</name>
+		<uri>/Cube</uri>
+		<pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+	</include>
+	<include>
+		<name>Cube001</name>
+		<uri>/Cube001</uri>
+		<pose>0.0 -1.5e-05 0.0 0.0 0.0 0.0</pose>
+	</include>
+	<include>
+		<name>Cube002</name>
+		<uri>/Cube002</uri>
+		<pose>0.0 -9e-06 1e-05 0.0 0.0 0.0</pose>
+	</include>
+	<joint name="e43e03d6-0a84-4e20-b777-236ca73857de" type="fixed">
+		<parent>base_link</parent>
+		<child>Cube::Cube</child>
+		<pose>0.0 -1.5e-05 0.0 0.0 0.0 0.0</pose>
+	</joint>
+	<joint name="e7e2c4be-34ff-4497-837a-a3e1a836800b" type="fixed">
+		<parent>base_link</parent>
+		<child>Cube::Cube</child>
+		<pose>0.0 -9e-06 1e-05 0.0 0.0 0.0</pose>
+	</joint>
+</model>

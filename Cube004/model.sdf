@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<sdf version="1.4">
+  <model name="Cube004">
+    <link name="Cube004">
+    <gravity>0</gravity>
+      <collision name="collision">
+        <mesh>
+          <uri>model://meshes/Cube004.dae</uri>
+        </mesh>
+      </collision>
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://meshes/Cube004.dae</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.0</mu>
+            </ode>
+          </friction>
+        </surface>
+      </visual>
+  </link>
+  </model>
+</sdf>

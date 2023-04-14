@@ -1,0 +1,10 @@
+<model name="assembly">
+	<link name="base_link">
+		<pose>0 0 0 0 0 0</pose>
+	</link>
+	<include>
+		<name>Cube</name>
+		<uri>/Cube</uri>
+		<pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+	</include>
+</model>
